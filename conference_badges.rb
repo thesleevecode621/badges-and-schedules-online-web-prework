@@ -11,4 +11,4 @@ def batch_badge_creator(attendees)
   badge_messages
 end
 def assign_rooms(attendees)
-  
+  room_messages  = []
