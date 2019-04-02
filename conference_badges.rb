@@ -18,4 +18,11 @@ def assign_rooms(attendees)
   room_messages
 end 
 def printer(attendees)
-  print=[]
+  batch_badge_creator(attendees).each do |a|
+    puts a
+  end
+
+   assign_rooms(attendees).each do |a|
+    puts a
+  end
+end
