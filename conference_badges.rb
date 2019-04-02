@@ -13,3 +13,4 @@ end
 def assign_rooms(attendees)
   room_messages  = []
   attendees.each do |person|
+    
